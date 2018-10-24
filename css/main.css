@@ -261,7 +261,7 @@ body {
   position: relative;
 }
 
-.image-wrapper::before {
+/* .image-wrapper::before {
   content: attr(data-source);
   position: absolute;
   bottom: 0;
@@ -283,12 +283,11 @@ body {
     font-size: 12px;
     line-height: 16px;
   }
-
-}
+} */
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
